@@ -20,7 +20,7 @@ Widget getPieChart(double statusBarHeight){
 
 TabBarControllerHome() {
   return new DefaultTabController(
-      length: 5,
+      length: 4,
       child: Scaffold(
         appBar: new PreferredSize(
           preferredSize: Size.fromHeight(kToolbarHeight),
