@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter_charts_deep/Constant/Constant.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

@@ -27,7 +27,7 @@ class Condition {
     else if (id == 803 || id == 804)
       return "assets/img/d4s.png";
 
-    print("Unknown condition ${id}");
+    print("Unknown condition $id");
     return "assets/img/n1s.png";
   }
 }
