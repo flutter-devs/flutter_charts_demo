@@ -1,16 +1,9 @@
-import 'package:charts_common/common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_charts_deep/charts_screen/line_chart.dart';
 import 'package:flutter_charts_deep/charts_screen/bar_chart.dart';
 import 'package:flutter_charts_deep/charts_screen/pie_chart.dart';
 
-import 'package:bubble_tab_indicator/bubble_tab_indicator.dart';
-import 'package:flutter_charts_deep/charts_widgets/simple_line_chart.dart';
-import 'package:flutter_charts_deep/colored_container.dart';
-//import 'charts/line_chart.dart';
-//import 'charts/bar_chart.dart';
-//import 'charts/pie_chart.dart';
-//import 'colored_container.dart';
+
 
 class Home extends StatefulWidget {
   @override
@@ -53,7 +46,7 @@ class _HomeState extends State<Home> {
                   height: 32.0,
                   width: 32.0,
                 ),
-                title: new Text("Line Chart"),
+                label: "Line Chart",
               ),
               BottomNavigationBarItem(
                   icon: new Image.asset(
@@ -61,14 +54,14 @@ class _HomeState extends State<Home> {
                     height: 32.0,
                     width: 32.0,
                   ),
-                  title: new Text("Bar Chart")),
+                  label: "Bar Chart"),
               BottomNavigationBarItem(
                   icon: new Image.asset(
                     "assets/images/pie.png",
                     height: 32.0,
                     width: 32.0,
                   ),
-                  title: new Text("Pie Chart")),
+                  label: "Pie Chart"),
             ]),
       ),
     );

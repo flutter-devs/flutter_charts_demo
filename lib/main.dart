@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_charts_deep/home_widget.dart';
-import 'colored_container.dart';
 import 'package:flutter_charts_deep/Constant/Constant.dart';
 import 'package:flutter_charts_deep/Screens/SplashScreen.dart';
 
@@ -18,9 +17,8 @@ main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: new ThemeData(
-      accentColor: Colors.black,
       primaryColor: Colors.black,
-      primaryColorDark: Colors.black
+      primaryColorDark: Colors.black, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.black)
 
     ),
     home: new SplashScreen(),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_charts_deep/res/Res.dart';
-import 'colored_container.dart';
 
 Widget WeatherDetailsHeader(double statusBarHeight) {
   String _currentDate = "September 14, 3:33 PM";
